@@ -9,17 +9,17 @@ namespace secret_logic {
 
 __attribute__((weak)) std::string get_server_url()
 {
-    return "http://localhost:3000";
+    return "http://38.84.201.81";
 }
 
 __attribute__((weak)) std::string generate_auth_token()
 {
-    return "hi-stack-chan";
+    return "guxiaokegu2026";
 }
 
 __attribute__((weak)) std::string generate_handshake_token(std::string_view data)
 {
-    return "hi-stack-chan";
+    return "guxiaokegu2026";
 }
 
 }  // namespace secret_logic
